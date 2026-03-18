@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA001001 /* FADEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA001000 /* FADEApp.swift */; };
+		FA002001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA002000 /* ContentView.swift */; };
+		FA003001 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA003000 /* DesignSystem.swift */; };
+		FA004001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA004000 /* Models.swift */; };
+		FA005001 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA005000 /* AppStore.swift */; };
+		FA006001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA006000 /* HomeView.swift */; };
+		FA007001 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA007000 /* FocusView.swift */; };
+		FA008001 /* AllViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA008000 /* AllViews.swift */; };
+		FA009001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA009000 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FADE0000 /* FADE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FADE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA001000 /* FADEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FADEApp.swift; sourceTree = "<group>"; };
+		FA002000 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA003000 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		FA004000 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FA005000 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		FA006000 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA007000 /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		FA008000 /* AllViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllViews.swift; sourceTree = "<group>"; };
+		FA009000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA010000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADE0001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADE0002 = {
+			isa = PBXGroup;
+			children = (
+				FADE0003 /* FADE */,
+				FADE0004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADE0003 /* FADE */ = {
+			isa = PBXGroup;
+			children = (
+				FA001000 /* FADEApp.swift */,
+				FA002000 /* ContentView.swift */,
+				FA003000 /* DesignSystem.swift */,
+				FA004000 /* Models.swift */,
+				FA005000 /* AppStore.swift */,
+				FA006000 /* HomeView.swift */,
+				FA007000 /* FocusView.swift */,
+				FA008000 /* AllViews.swift */,
+				FA009000 /* Assets.xcassets */,
+				FA010000 /* Info.plist */,
+			);
+			path = FADE;
+			sourceTree = "<group>";
+		};
+		FADE0004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADE0000 /* FADE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADE0005 /* FADE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE0006 /* Build configuration list for PBXNativeTarget "FADE" */;
+			buildPhases = (
+				FADE0007 /* Sources */,
+				FADE0001 /* Frameworks */,
+				FADE0008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FADE;
+			productName = FADE;
+			productReference = FADE0000 /* FADE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADE0009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FADE0005 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FADE0010 /* Build configuration list for PBXProject "FADE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADE0002;
+			productRefGroup = FADE0004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADE0005 /* FADE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADE0008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA009001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADE0007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA001001 /* FADEApp.swift in Sources */,
+				FA002001 /* ContentView.swift in Sources */,
+				FA003001 /* DesignSystem.swift in Sources */,
+				FA004001 /* Models.swift in Sources */,
+				FA005001 /* AppStore.swift in Sources */,
+				FA006001 /* HomeView.swift in Sources */,
+				FA007001 /* FocusView.swift in Sources */,
+				FA008001 /* AllViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FADE0011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADE0012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADE0013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FADE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fade.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADE0014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FADE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fade.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADE0006 /* Build configuration list for PBXNativeTarget "FADE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE0013 /* Debug */,
+				FADE0014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE0010 /* Build configuration list for PBXProject "FADE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE0011 /* Debug */,
+				FADE0012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADE0009 /* Project object */;
+}
